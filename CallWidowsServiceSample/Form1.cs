@@ -16,5 +16,22 @@ namespace CallWidowsServiceSample
         {
             InitializeComponent();
         }
+
+        private void CallAddWebService_Click(object sender, EventArgs e)
+        {
+            Calculatorservice.CalculatorWebServiceSoapClient proxy = new Calculatorservice.CalculatorWebServiceSoapClient();
+            int result = proxy.Add(10, 55);
+            MessageBox.Show(result.ToString());
+        }
+
+        private void btnCallAdvantechWebService_Click(object sender, EventArgs e)
+        {
+            AdvantechWebService.AdvantechWebServiceLocal service = new AdvantechWebService.AdvantechWebServiceLocal();
+            var result = service.CheckURLRedirection();
+
+            CalculatorWebService.CalculatorWebService calculator = new CalculatorWebService.CalculatorWebService();
+            calculator.Add(14, 20);
+        }
+            
     }
 }

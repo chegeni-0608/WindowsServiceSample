@@ -8,22 +8,39 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CallWidowsServiceSample.Properties
-{
-
-
+namespace CallWidowsServiceSample.Properties {
+    
+    
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "11.0.0.0")]
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase
-    {
-
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "17.2.0.0")]
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
-
-        public static Settings Default
-        {
-            get
-            {
+        
+        public static Settings Default {
+            get {
                 return defaultInstance;
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://www2.advantech.eu/webservice/AdvantechWebServiceLocal.asmx")]
+        public string CallWidowsServiceSample_AdvantechWebService_AdvantechWebServiceLocal {
+            get {
+                return ((string)(this["CallWidowsServiceSample_AdvantechWebService_AdvantechWebServiceLocal"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://ecs.syr.edu/faculty/fawcett/Handouts/cse775/code/calcWebService/Calc.asmx" +
+            "")]
+        public string CallWidowsServiceSample_CalculatorWebService_Calculator_x0020_Web_x0020_Service {
+            get {
+                return ((string)(this["CallWidowsServiceSample_CalculatorWebService_Calculator_x0020_Web_x0020_Service"]));
             }
         }
     }
