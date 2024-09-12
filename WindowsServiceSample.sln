@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsServiceSample", "Win
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallWidowsServiceSample", "CallWidowsServiceSample\CallWidowsServiceSample.csproj", "{DD971BE1-EC02-4804-8DF3-E04A9A862D09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WriteWebServiceSample", "WriteWebServiceSample\WriteWebServiceSample.csproj", "{0EF9F2C6-0BEC-44E0-B17B-359A93736D1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DD971BE1-EC02-4804-8DF3-E04A9A862D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD971BE1-EC02-4804-8DF3-E04A9A862D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD971BE1-EC02-4804-8DF3-E04A9A862D09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EF9F2C6-0BEC-44E0-B17B-359A93736D1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EF9F2C6-0BEC-44E0-B17B-359A93736D1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EF9F2C6-0BEC-44E0-B17B-359A93736D1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EF9F2C6-0BEC-44E0-B17B-359A93736D1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
