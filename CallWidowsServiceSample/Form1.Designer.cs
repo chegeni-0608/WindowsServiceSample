@@ -30,6 +30,8 @@
         {
             this.CallAddWebService = new System.Windows.Forms.Button();
             this.btnCallAdvantechWebService = new System.Windows.Forms.Button();
+            this.btnCallWebAPI = new System.Windows.Forms.Button();
+            this.btnCallWebAPIProducts = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // CallAddWebService
@@ -52,11 +54,33 @@
             this.btnCallAdvantechWebService.UseVisualStyleBackColor = true;
             this.btnCallAdvantechWebService.Click += new System.EventHandler(this.btnCallAdvantechWebService_Click);
             // 
+            // btnCallWebAPI
+            // 
+            this.btnCallWebAPI.Location = new System.Drawing.Point(12, 137);
+            this.btnCallWebAPI.Name = "btnCallWebAPI";
+            this.btnCallWebAPI.Size = new System.Drawing.Size(212, 28);
+            this.btnCallWebAPI.TabIndex = 2;
+            this.btnCallWebAPI.Text = "Call Web API";
+            this.btnCallWebAPI.UseVisualStyleBackColor = true;
+            this.btnCallWebAPI.Click += new System.EventHandler(this.btnCallWebAPI_Click);
+            // 
+            // btnCallWebAPIProducts
+            // 
+            this.btnCallWebAPIProducts.Location = new System.Drawing.Point(12, 195);
+            this.btnCallWebAPIProducts.Name = "btnCallWebAPIProducts";
+            this.btnCallWebAPIProducts.Size = new System.Drawing.Size(212, 28);
+            this.btnCallWebAPIProducts.TabIndex = 3;
+            this.btnCallWebAPIProducts.Text = "Call Web API Products";
+            this.btnCallWebAPIProducts.UseVisualStyleBackColor = true;
+            this.btnCallWebAPIProducts.Click += new System.EventHandler(this.btnCallWebAPIProducts_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnCallWebAPIProducts);
+            this.Controls.Add(this.btnCallWebAPI);
             this.Controls.Add(this.btnCallAdvantechWebService);
             this.Controls.Add(this.CallAddWebService);
             this.Name = "Form1";
@@ -69,6 +93,8 @@
 
         private System.Windows.Forms.Button CallAddWebService;
         private System.Windows.Forms.Button btnCallAdvantechWebService;
+        private System.Windows.Forms.Button btnCallWebAPI;
+        private System.Windows.Forms.Button btnCallWebAPIProducts;
     }
 }
 
